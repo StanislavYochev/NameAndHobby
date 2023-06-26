@@ -12,7 +12,7 @@ public class NameAndHobby {
 
     String name = scanner.nextLine();
 
-    System.out.println("What is your hobby,Stanislav?");
+    System.out.println("Stanislav, what is your favorite hobby?");
 
     String hobby = scanner.nextLine();
 
