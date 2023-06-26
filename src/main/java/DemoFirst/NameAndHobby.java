@@ -1,4 +1,4 @@
-package NameAndHobby;
+package DemoFirst;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class NameAndHobby {
 
     String name = scanner.nextLine();
 
-    System.out.println("Stanislav, what is your favorite hobby?");
+    System.out.println("What is your favorite hobby,Stanislav?");
 
     String hobby = scanner.nextLine();
 
