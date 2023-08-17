@@ -6,7 +6,7 @@ public class Variables {
 
         //instance veriable
     byte age;
-
+    String name;
     public static void main(String[] args) {
         //local veriables
         //primitive data types

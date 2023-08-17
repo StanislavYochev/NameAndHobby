@@ -6,6 +6,8 @@ public class Test {
         Variables o1 = new Variables();
         Variables o2 = new Variables();
 
+        System.out.println(o1 instanceof Object);//
+
         //instance variable from the type (Class - in this Variables)
         o1.age = 20;
         //o2.age = 17;
@@ -16,6 +18,11 @@ public class Test {
 
         //accessing class variable/ static variable
         Variables.staticString = "some \"random\" text";
+
         System.out.println(Variables.staticString);
+
+        System.out.println(o1);
+        System.out.println(o1.age);
+        System.out.println(o1.name);
     }
 }
