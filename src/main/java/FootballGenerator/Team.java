@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Team {
-    public Team barcelona = new Team("Barcelona");
+    public Team barcelona = new Team("Barcelona", 81);
     private String name;
     private List<Player> players;
 
-    public Team(String name){
+    public Team(String name, int i){
         setName(name);
         players = new ArrayList<>();
     }

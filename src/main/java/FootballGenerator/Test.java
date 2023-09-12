@@ -20,7 +20,7 @@ public class Test {
             try{
                 switch (command) {
                     case "Team" -> {
-                        Team teamToCreate = new Team(teamName);
+                        Team teamToCreate = new Team(teamName, 81);
                         teams.put(teamName, teamToCreate);
                     }
                     case "Add" -> {
